@@ -1,1 +1,1 @@
-<dev>this is wrong</dev>
+alert(1)
