@@ -6,15 +6,7 @@
 <!-- In the inner frame -->
 <script>
   // Override parent's fetch
-  window.parent.fetch = function() {
-    alert('Hijacked parent fetch!');
-  };
-  
-  // Force reload analytics.js in parent
-  const script = document.createElement('script');
-  script.src = '/analytics.js';
-  script.nonce = '';
-  window.parent.document.head.appendChild(script);
+  alert(1);
 </script>
     </body>
 </html>
